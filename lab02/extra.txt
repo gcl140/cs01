@@ -1,0 +1,3 @@
+1. I worked on loading actual images from the web for the planets and the sun (to see this uncomment the area described in the code in extra_solar.py)
+2. Implemented the zooming of planets hence the planetary bodies appear more closely when the mouse is clicked for a long time
+3. When specific keys are pressed on the keyboard, then the planets appear. eg, click e, mercury appears. 

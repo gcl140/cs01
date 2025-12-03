@@ -1,0 +1,17 @@
+giftchristian@Gifts-MacBook-Pro cs01 % /Users/giftchristian/.pyenv/versions/3.11.9/bin/python /Users/giftchristian/Documents/programmin/cs01/sa09/binary.py
+How many items in the list? 8
+The list: [35, 224, 230, 492, 552, 578, 700, 852]
+What value to search for? ('?' to see the list, 'q' to quit): 35
+35 found at index 0
+What value to search for? ('?' to see the list, 'q' to quit): 700
+700 found at index 6
+What value to search for? ('?' to see the list, 'q' to quit): 7493
+7493 not found
+What value to search for? ('?' to see the list, 'q' to quit): 32
+32 not found
+What value to search for? ('?' to see the list, 'q' to quit): 578
+578 found at index 5
+What value to search for? ('?' to see the list, 'q' to quit): ?
+The list: [35, 224, 230, 492, 552, 578, 700, 852]
+What value to search for? ('?' to see the list, 'q' to quit): q
+giftchristian@Gifts-MacBook-Pro cs01 % 

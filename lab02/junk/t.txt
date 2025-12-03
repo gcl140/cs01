@@ -1,0 +1,27 @@
+u have earth at xe, ye and moon at xm, ym. so the force between is gravitational. f= Gmemm/r^2. 
+to find the distance r
+dx = xe -xm
+dy = ye - ym
+r^2 = dx^2 + dy^2
+
+update function
+vx += ax * timestep
+vy += ay * timestep
+
+x += vx * timestep
+y += vy * timestep
+
+
+a = f/moon
+first compute raw a - magnitude of the accelaration
+so for moon for instance
+A = gmmme/r^2 * mm^-1 = gme/r^2
+ax^2 + ay^2 = A^2
+since its same triangles
+
+dx/r = ax/Am = cos 0
+ax = dxAm/r
+ay = dyAm/r
+
+Am = gme/r^2
+ax = dx * gme/r^2 * 1/r = dx * g * me/r^3

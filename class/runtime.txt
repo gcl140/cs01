@@ -1,0 +1,137 @@
+def a(n):
+    i = 0
+    while i < n:    |3 operations, 1 here
+        i += 1      |2 here: 1 for adding, 1 for reassigning
+
+slow computer: assignment add, compare take 33 1/3 ms
+
+ra(n) = 3(33 1/3) * n + 1
+ra(n) ~ 100n = c1 * n
+
+def b(n):
+    i = 0
+    while i < n ** 2:
+        i += 1
+
+faster computer: operations table. 1/3 ms
+3 operations n^2 times
+
+
+rb(n) = 3(1/3) * n**2
+rb(n) = n**2 = c2 * n^2
+
+100 * n == n * n
+when n = 100, craziness starts
+
+n   1   2   10   100    1000
+ra  100 200 1000 10000  100000
+rb  1   4   100  10000  10000000
+
+basically, its where graph of nx and x**2 intersect
+
+asymptotic notation: when a function grows to infinity, how does it behave?
+big O - asymptotic (gets big) upper bounded
+
+we say that a function r(n) is O(n^2) iff there exists a positive constant n0 and k0
+such that for all n>n n^2 > k0(r(n))
+
+eg 
+ra -- also O(n) and O(n**2)
+n^2 > k0 (c1 * n) - true, as n square gets bigger
+
+
+is rb O(n^2)?? not O(n)
+n^2 > k0 (c2 * n^2) 
+# - true, as n square gets bigger
+
+so to be greater, 1 > k0 * c2 --on simplifying
+c2 is given
+so i can choose k0 is there for me to choose, just so that its less than one
+
+
+
+
+Big theta
+we say r(n) is O theta (n^2) iff there exists constants k1 and k2 > 0 (both positive) and n0
+such that for all n > n0
+k1(n^2) < r(n) < k2(n^2)
+
+r(n) = 16n^2 + 4n + 3√n + 2
+
+trick: take the fastest growing term
+will be 
+14n^2 < 16n^2 < 18n^2
+
+ra(n) = c1 + c2n + c3nlogn + c4n^2 + c5n^3√n
+theta(n^2) iff
+k1n^2 <= r(n) <= k2(n^2) for n > n0
+
+big theta (note), big o
+
+
+def linear_search(arr, target):
+    i = 0
+    while i < len(arr):
+        if arr[i] == target:
+            return i
+        i += 1
+    return -1
+
+
+# linear search is big theta(n) of 1
+
+# linear search
+# i = 0: c1
+# while loop: c2n
+# total: c1 + c2n
+
+
+# recursive binary search
+
+# n = 16:
+# c1 to check base case and subdivide
+# n = 8
+# c1 to check base case and subdivide
+# n = 4
+# c1 to check base case and subdivide
+# n = 2
+# c1 to check base case and subdivide
+# n = 1
+# c1 to check base case and subdivide
+
+# n = 16 --> 8 --> 4 --> 2 --> 1
+# each step costs c1
+# total: c1 (log2 n + 1), simplify big theta(log2 n)
+
+# 1+2+3+4+5+6+7+8+9+10
+# sum of first n natural numbers = n(n+1)/2
+# n^2 + n
+# big theta(n^2)
+
+# selection sort
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(n - 1):                          # looks for n, then n - 1, n -3, ....., 1 items: so runtime c1(n + n-1 + n-2 + ... + 1) = c1(n(n-1)/2) = big theta(n^2)
+        min_idx = i
+        for j in range(i, n):                 
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+    return arr
+
+# insertion sort, best case runs once the loop , runs all, big theta(n^2)
+
+#merge sort, mergesort(n):
+# merge_sort(left n/2):  also recursive
+# merge_sort(right n/2): costs c1
+# combine: (left, right): costs c1
+# checks just the first elements of each half, so linear time costs c2n
+
+# ms = 16 --> ms8, (c(16)) ,ms8 -->  ms4, (c(8)) ,ms4 (for each of the two halves) --> ms2 (c(4)), ms2 (for each of the four halves) --> ms1 (c(2)) (for each of the eight halves)
+# has 5 layers: c2(log2 n + 1) = big theta(n log n)
+
+# for ns, for c16, its n, for c8, its n/2 * 2, for c4, its n/4 * 4, for c2, its n/2 * 8, for c1, its n * 16
+
+# so big theta(n log n) - much better
+
+# selection < insertion < merge

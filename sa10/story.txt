@@ -1,0 +1,103 @@
+START
+You arrive at the edge of Camp Greenwood for a weekend retreat.
+Most of the group went ahead earlier, but you got delayed on the road.
+Now the sun is setting, and you need to catch up.
+You can a) follow the trail toward the old ranger cabin, or b) take the footpath along the river.
+
+PATH_CABIN, PATH_RIVER
+
+PATH_CABIN
+The path leads you to a small wooden cabin with a dim lantern glowing in the window.
+The door is shut, and the place feels abandoned.
+You can a) knock on the door, or b) check the toolshed behind the cabin.
+
+CABIN_DOOR, CHECK_SHED
+
+CABIN_DOOR
+You knock twice. A tired-looking park ranger opens the door.
+He’s surprised to see you and warns that the area has had odd animal activity.
+You can a) stay and ask him for directions, or b) thank him and head back outside.
+
+TALK_RANGER, LEAVE_CABIN
+
+CHECK_SHED
+The shed creaks as you open it. Inside, you spot a dusty map pinned to the wall.
+You also notice a huge spider web in the corner.
+You can a) take the map, or b) try clearing the web.
+
+FIND_MAP, SPIDER_END
+
+TALK_RANGER
+The ranger offers to walk with you part of the way.
+He also mentions a shortcut through the forest if you're in a hurry.
+You can a) accept his offer, or b) take the shortcut alone.
+
+RANGER_GUIDE, FOREST_SHORTCUT
+
+LEAVE_CABIN
+You step back into the cold evening. The wind picks up and the forest grows darker.
+You try to retrace your steps but lose the path completely.
+Eventually you decide to wait until morning. The end.
+
+ 
+
+FIND_MAP
+The map is old but clear. It shows two routes to the camp:
+a forest shortcut, and a safer path crossing the river bridge.
+You can a) take the forest shortcut, or b) head toward the bridge.
+
+FOREST_SHORTCUT, RIVER_CROSSING
+
+SPIDER_END
+The web doesn’t budge. As you keep pulling, the shelf above collapses,
+sending tools flying everywhere. You sprint out of the shed
+and decide it’s safer to head home. The end.
+
+ 
+
+RANGER_GUIDE
+You and the ranger walk together for twenty minutes until you see
+the campfire lights in the distance. The group cheers when you arrive. The end.
+
+ 
+
+FOREST_SHORTCUT
+The shortcut is quiet, almost too quiet. After a few minutes,
+the path splits unexpectedly. You can a) go left toward a rocky
+cave entrance, or b) continue straight toward a bright clearing.
+
+LOST_CAVE, CLEARING
+
+RIVER_CROSSING
+You reach the bridge marked on the map. The water below is fast and loud.
+You can a) cross the bridge carefully, or b) hop across the stones
+along the side of the bridge.
+
+BRIDGE_SAFE, FALL_IN
+
+LOST_CAVE
+You step into the cave. The air is colder than outside, and you hear
+dripping water echoing through the walls. After walking deeper,
+you realize the tunnel twists too much to navigate. You head back
+and wait for daylight. The end.
+
+ 
+
+CLEARING
+The clearing opens up to a wide view of Camp Greenwood. You spot your group
+laughing around a small fire. You call out, they wave, and you're soon
+sharing warm cider with them. The end.
+
+ 
+
+BRIDGE_SAFE
+You cross slowly, gripping the railing. The boards creak, but you make
+it across safely. A few minutes later, the lights of the camp appear.
+The end.
+
+ 
+
+FALL_IN
+You slip on a wet stone and fall into the river. Luckily the current
+pushes you to a shallow bank downstream. You're soaked, freezing,
+and absolutely done for the night. The end.

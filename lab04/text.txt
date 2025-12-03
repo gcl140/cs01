@@ -1,0 +1,2 @@
+1. Made the path line flashy to alert the user more impressively
+2. On hover, display a text of the name of the location next to it

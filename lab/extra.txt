@@ -1,0 +1,4 @@
+1. Random initial direction for the ball. 
+2. Unpredictable bouncing
+3. Fancy .png images for ball
+4. Flashy paddles changing colors and intro message

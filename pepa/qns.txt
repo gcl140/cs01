@@ -1,0 +1,9 @@
+Recursion problems
+
+    Define a recursive function that takes a positive integer n as a parameter and prints the squares of all the numbers between 1 and n in decreasing order.
+    Define a recursive function that takes a positive integer n as a parameter and prints the squares of all the numbers between 1 and n in increasing order.
+    Define a recursive function that takes a positive integer n as a parameter and prints the squares of all the even numbers between 1 and n in increasing order.
+    Define a recursive function that takes a positive integer n as a parameter and returns the product of all the odd numbers between 1 and n.
+    Define a recursive function that takes two positive integers n and p as parameters and returns a list of all multiples of p between 1 and n. The order of numbers in the returned list doesn't matter.
+    Define a recursive function that takes a list of positive integers, glist, as a parameter and returns a list of all multiples of 3 in glist.
+    Define a recursive function that takes a list of positive integers, glist, as a parameter and returns True if the list has a multiple of 3. Otherwise, it returns False.

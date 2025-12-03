@@ -1,0 +1,30 @@
+Error: Initial Value is out of range
+Error: Initial Value is out of range
+Initial Values: 0009 004
+1. After tick: 0008 (wrapped= False )
+1. After tick: 0007 (wrapped= False )
+1. After tick: 0006 (wrapped= False )
+1. After tick: 0005 (wrapped= False )
+1. After tick: 0004 (wrapped= False )
+1. After tick: 0003 (wrapped= False )
+1. After tick: 0002 (wrapped= False )
+1. After tick: 0001 (wrapped= False )
+1. After tick: 0000 (wrapped= False )
+1. After tick: 0009 (wrapped= True )
+1. After tick: 0008 (wrapped= False )
+1. After tick: 0007 (wrapped= False )
+1=========================================1
+2. After tick: 003 (wrapped= False )
+2. After tick: 002 (wrapped= False )
+2. After tick: 001 (wrapped= False )
+2. After tick: 000 (wrapped= False )
+2. After tick: 004 (wrapped= True )
+2. After tick: 003 (wrapped= False )
+2. After tick: 002 (wrapped= False )
+2. After tick: 001 (wrapped= False )
+2. After tick: 000 (wrapped= False )
+2. After tick: 004 (wrapped= True )
+2. After tick: 003 (wrapped= False )
+2. After tick: 002 (wrapped= False )
+2=========================================2
+7

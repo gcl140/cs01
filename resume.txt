@@ -1,0 +1,89 @@
+Perfect. Here’s your **Microsoft Explore–optimized version** of your resume — same person, same achievements, but framed to show *potential, collaboration, curiosity,* and *growth* instead of *senior-level engineering experience.*
+
+---
+
+# 🎯 GIFT C. CHRISTIAN
+
+Hanover, NH ∙ +1 (603) 322-0818 ∙ [gift.c.christian.29@dartmouth.edu](mailto:gift.c.christian.29@dartmouth.edu)
+[LinkedIn] | [GitHub] | [Portfolio]
+
+---
+
+### **EDUCATION**
+
+**Dartmouth College**, Hanover, NH
+*Bachelor of Arts in Computer Science – Expected June 2029*
+**Relevant Coursework:** Intro to Programming, Software Design and Implementation, Data Structures (in progress)
+**Activities:** ColorStack, CodePath, Dartmouth African Students Association (DASA), First Generation Office (FGO), Dartmouth Evergreen AI Project
+
+**Ilboru High School**, Arusha, Tanzania — *Graduated June 2023*
+**Honors:** 1510 SAT, Top 3 in 3 National Hackathons, GPA: 4.0/4.0
+**Activities:** STEM Club General Secretary, Hackathons, Music Production, Web Development
+
+---
+
+### **EXPERIENCE**
+
+**Dartmouth Evergreen AI Project**, Hanover, NH
+*Eversource Project Assistant* — *October 2025 – Present*
+
+* Supported the development of a full-stack Flask web application for **Evergreen AI**, Dartmouth’s student wellness initiative, helping streamline data flow from 400+ users to train predictive wellness models.
+* Enhanced the admin dashboard with **interactive analytics** and randomized avatar integration to improve usability and engagement.
+* Collaborated with mentors to manage deployments, monitor system reliability, and test new features — improving workflow efficiency by over 40%.
+
+**Tanzania Students’ Achievement Foundation**, Dar es Salaam, Tanzania
+*Software Development Intern* — *Dec 2024 – July 2025*
+
+* Contributed to building a **Django-based admissions portal** used by 300+ applicants; implemented secure login and user management workflows.
+* Helped design a staff dashboard for application review and document management, improving the review process and data clarity.
+* Worked closely with a small dev team to debug and iterate on features based on mentor feedback.
+
+**Being That Guy**, Arusha, Tanzania
+*Software Development Freelancer* — *Apr 2025 – June 2025*
+
+* Built a small **e-commerce website** using Django and PostgreSQL for a local clothing brand, supporting 50+ active users.
+* Designed responsive pages with Tailwind CSS and implemented basic order tracking to improve customer experience.
+* Collaborated directly with the client to adjust design and functionality based on feedback.
+
+---
+
+### **PROJECTS**
+
+**ForumAbroad** | Django, Google Vertex AI, Tailwind CSS, HTMX
+
+* Created a student discussion platform with nested replies and AI-powered suggestions using Google Vertex AI to reduce repetitive questions.
+* Focused on clean design, accessibility, and performance through efficient database queries and lightweight HTMX interactions.
+
+**Edupayy** | Django, Stripe, Redis, Celery
+
+* Built a school payment web app allowing students and parents to track balances and invoices through secure accounts.
+* Integrated **Stripe** for real-time payments and used **Celery** for background tasks like sending invoice reminders.
+
+---
+
+### **SKILLS**
+
+**Languages:** Python, Java, C, JavaScript
+**Frameworks:** Django, Flask, React, Tailwind CSS
+**Tools:** Git, Linux, VS Code, PostgreSQL, APIs
+
+---
+
+### **LANGUAGES & INTERESTS**
+
+**Languages:** Fluent in English, Swahili, Haya, and French (basic proficiency)
+**Interests:** Soccer, Afrobeats & Amapiano music, Skiing, Music Production, Anime
+
+---
+
+## ⚙️ Why This Works
+
+* You still sound **competent and technical**, but not like a full-time SWE.
+* “Supported,” “contributed,” “helped design,” and “collaborated” soften the tone — you sound like a *learner with initiative*, not a lead dev.
+* Focus on teamwork and mentorship → exactly what Explore wants.
+* One page, clean, growth-oriented.
+
+---
+
+🔥 Want me to format this into a clean **ATS-safe 1-page PDF layout** (section spacing, bullet alignment, professional styling, <1MB)?
+It’ll be ready to upload to Microsoft’s portal with zero edits.
