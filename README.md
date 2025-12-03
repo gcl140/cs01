@@ -153,7 +153,7 @@ An interactive drawing application that allows users to draw on a digital canvas
 
 ### SA06: N-Queens
 **File:** `sa06/chess.py`  
-**Date:** October 2023 - October 2025
+**Date:** October 17, 2025 (Originally October 2023, updated 2024-2025)
 
 An interactive N-Queens problem visualization and validation program. Users can place queens on a chessboard, and the program validates whether the placement is valid (no two queens attacking each other).
 
